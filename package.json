@@ -8,7 +8,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+ssh://git@bitbucket.org/tripletex/tlx-eslint.git"
+		"url": "git+ssh://git@bitbucket.org/tripletex/eslint-config-tlx.git"
 	},
 	"keywords": [
 		"eslint",
@@ -17,7 +17,7 @@
 	],
 	"author": "Harry Nystad (harry@tripletex.no)",
 	"license": "MIT",
-	"homepage": "https://bitbucket.org/tripletex/tlx-eslint#readme",
+	"homepage": "https://bitbucket.org/tripletex/eslint-config-tlx#readme",
 	"dependencies": {
 		"eslint-config-airbnb": "17.1.0"
 	},
@@ -25,6 +25,6 @@
 		"eslint": "5.8.0",
 		"eslint-plugin-import": "2.14.0",
 		"eslint-plugin-jsx-a11y": "6.1.2",
-		"eslint-plugin-react": "7.11.0"
+		"eslint-plugin-react": "7.11.0"	
 	}
 }
