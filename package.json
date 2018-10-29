@@ -1,0 +1,30 @@
+{
+	"name": "eslint-config-tlx",
+	"version": "1.0.0",
+	"description": "Eslint preset for Tripletex AS projects",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@bitbucket.org/tripletex/tlx-eslint.git"
+	},
+	"keywords": [
+		"eslint",
+		"lint",
+		"tripletex"
+	],
+	"author": "Harry Nystad (harry@tripletex.no)",
+	"license": "MIT",
+	"homepage": "https://bitbucket.org/tripletex/tlx-eslint#readme",
+	"dependencies": {
+		"eslint-config-airbnb": "17.1.0"
+	},
+	"peerDependencies": {
+		"eslint": "5.8.0",
+		"eslint-plugin-import": "2.14.0",
+		"eslint-plugin-jsx-a11y": "6.1.2",
+		"eslint-plugin-react": "7.11.0"
+	}
+}
