@@ -1,5 +1,5 @@
 {
-	"name": "eslint-config-tlx",
+	"name": "eslint-config-tripletex",
 	"version": "1.0.0",
 	"description": "Eslint preset for Tripletex AS projects",
 	"main": "index.js",
@@ -8,7 +8,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+ssh://git@bitbucket.org/tripletex/eslint-config-tlx.git"
+		"url": "git+ssh://git@github.com:Tripletex/eslint-config-tripletex.git"
 	},
 	"keywords": [
 		"eslint",
@@ -17,7 +17,7 @@
 	],
 	"author": "Harry Nystad (harry@tripletex.no)",
 	"license": "MIT",
-	"homepage": "https://bitbucket.org/tripletex/eslint-config-tlx#readme",
+	"homepage": "https://github.com/Tripletex/eslint-config-tripletex#readme",
 	"dependencies": {
 		"eslint-config-airbnb": "17.1.0"
 	},
