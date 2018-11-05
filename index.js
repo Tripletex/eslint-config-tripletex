@@ -12,7 +12,9 @@ module.exports = {
 		},
 	},
 	"plugins": [
-		"react"
+		"react",
+		"import",
+		"eslint-plugin-flowtype"
 	],
 	"rules": {
 		"no-trailing-spaces": 2,
