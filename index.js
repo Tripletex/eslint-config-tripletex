@@ -32,6 +32,7 @@ module.exports = {
 		"import/prefer-default-export": 0,
 		"jsx-a11y/no-autofocus": 0,
 		"jsx-a11y/click-events-have-key-events": 0,
-		"jsx-a11y/no-static-element-interactions": 0
+		"jsx-a11y/no-static-element-interactions": 0,
+		"flowtype/require-valid-file-annotation": [1, "always"]
 	}
 };
