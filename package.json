@@ -15,7 +15,18 @@
 		"lint",
 		"tripletex"
 	],
-	"author": "Harry Nystad (harry@tripletex.no)",
+	"author": {
+		"name": "Tripletex AS",
+		"email": "npm.admin@tripletex.no",
+		"url": "https://github.com/Tripletex"
+	},
+	"contributors": [
+		{
+			"name": "Harry Nystad",
+			"email": "harry@tripletex.no",
+			"url": "https://github.com/HarNys"
+		}
+	],
 	"license": "MIT",
 	"homepage": "https://github.com/Tripletex/eslint-config-tripletex#readme",
 	"dependencies": {
