@@ -14,7 +14,6 @@ module.exports = {
 	"plugins": [
 		"react",
 		"import",
-		"eslint-plugin-flowtype"
 	],
 	"rules": {
 		"no-trailing-spaces": 2,
