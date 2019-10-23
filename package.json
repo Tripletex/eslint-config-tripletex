@@ -25,6 +25,11 @@
 			"name": "Harry Nystad",
 			"email": "harry@tripletex.no",
 			"url": "https://github.com/HarNys"
+		},
+		{
+			"name": "Tellef Møllerup Åmdal",
+			"email": "tellef@tripletex.no",
+			"url": "https://github.com/tlxtellef"
 		}
 	],
 	"license": "MIT",
