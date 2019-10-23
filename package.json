@@ -35,13 +35,13 @@
 	"license": "MIT",
 	"homepage": "https://github.com/Tripletex/eslint-config-tripletex#readme",
 	"dependencies": {
-		"eslint-config-airbnb": "16.1.0"
+		"eslint-config-airbnb": "18.0.1"
 	},
 	"peerDependencies": {
-		"eslint": "4.12.1",
-		"eslint-config-airbnb": "16.1.0",
-		"eslint-plugin-import": "2.7.0",
-		"eslint-plugin-jsx-a11y": "6.0.3",
-		"eslint-plugin-react": "7.5.1"
+		"eslint": "^6.5.1",
+		"eslint-config-airbnb": "18.0.1",
+		"eslint-plugin-import": "^2.18.2",
+		"eslint-plugin-jsx-a11y": "^6.2.3",
+		"eslint-plugin-react": "^7.15.1"
 	}
 }
