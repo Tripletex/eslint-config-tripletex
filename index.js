@@ -19,14 +19,20 @@ module.exports = {
 		"indent": ["error", "tab", {
 			"SwitchCase": 1
 		}],
-		"import/no-extraneous-dependencies": "off",
-		"import/prefer-default-export": "off",
 		"linebreak-style": "off",
 		"max-len": ["error", {
 			"code": 160
 		}],
 		"no-trailing-spaces": "error",
 		"no-tabs": "off",
+
+		"import/extensions": ["error", {
+				"ts": "never",
+				"tsx": "never"
+			}
+		],
+		"import/no-extraneous-dependencies": "error",
+		"import/prefer-default-export": "off",
 
 		"jsx-a11y/no-autofocus": "off",
 		"jsx-a11y/click-events-have-key-events": "off",
@@ -39,5 +45,17 @@ module.exports = {
 		"react/jsx-indent-props": ["error", "tab"],
 		"react/require-default-props": "off",
 		"react/sort-comp": "off",
+	},
+	"settings": {
+		"import/resolver": {
+			"node": {
+				"extensions": [
+					".js",
+					".jsx",
+					".ts",
+					".tsx"
+				]
+			}
+		}
 	}
 };
