@@ -45,7 +45,12 @@ module.exports = {
 		"jsx-a11y/no-static-element-interactions": "off",
 
 		"react/jsx-filename-extension": ["warn", {
-			"extensions": [".js", ".jsx"]
+			"extensions": [
+				".js",
+				".jsx",
+				".ts",
+				".tsx"
+			]
 		}],
 		"react/jsx-indent": ["error", "tab"],
 		"react/jsx-indent-props": ["error", "tab"],
