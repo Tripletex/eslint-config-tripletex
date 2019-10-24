@@ -20,11 +20,17 @@ module.exports = {
 			"SwitchCase": 1
 		}],
 		"linebreak-style": "off",
-		"max-len": ["error", {
-			"code": 160
-		}],
-		"no-trailing-spaces": "error",
+		"max-len": "off",
+
+		"no-restricted-properties": "off",
+		"no-plusplus": "off",
 		"no-tabs": "off",
+		"no-trailing-spaces": "error",
+		"no-use-before-define": ["error", {
+			"functions": false,
+			"classes": false,
+			"variables": true
+		}],
 
 		"import/extensions": ["error", {
 				"ts": "never",
